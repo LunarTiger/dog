@@ -144,6 +144,8 @@ pre {
 }
 
 div.container {
+    word-wrap: break-word;
+    width: 800px;
     max-width: 80%;
     margin: 0 auto;
 }
