@@ -11,10 +11,6 @@
 			<p><a href="tel:+15406653030" id="vet-phone" data-parent="vet">1-540-665-3030</a></p>
 			<p><a href="https://kingdomanimalhospital.com/" id="vet-website" data-parent="vet" target="_blank">kingdomanimalhospital.com</a></p>
 		</div>
-	<!--<button class="collapsible" id="more" data-parent="more" data-child="more-child">More Info</button>
-		<div id="more-child" class="innertext center" data-parent="more">
-			<p>Loading . . .</p>
-		</div><!---->
 </div>
 <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-database.js"></script>
