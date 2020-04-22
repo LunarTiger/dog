@@ -2,7 +2,7 @@
 	<img src="/dog/assets/img/0.jpg" alt="Max" height="256" width="256"><br />
 	<p>It looks like you've found me.</p>
 	<p>I live at <a href="https://www.google.com/maps/place/293+Babbs+Mountain+Rd,+Winchester,+VA+22603/@39.2744651,-78.1799907,17z/data=!3m1!4b1!4m5!3m4!1s0x89b5f115682b0d49:0xa79fd3617adf6fc!8m2!3d39.274461!4d-78.177802" id="address" target="_blank">293 Babbs Mountain Rd. Winchester, VA 22603</a></p>
-	<p>You can contact my owner at <a href="tel:+15406926899" id="phone">1-540-692-6899</a> or through his <a href="/contact" id="contact" target="_blank">contact page</a>.</p>
+	<p id="more-info">Loading . . .</p>
 	<br />
 	<button class="collapsible" id="vet" data-parent="vet" data-child="vet-child">Vet Info</button>
 		<div id="vet-child" class="innertext center" data-parent="vet">
@@ -11,10 +11,10 @@
 			<p><a href="tel:+15406653030" id="vet-phone" data-parent="vet">1-540-665-3030</a></p>
 			<p><a href="https://kingdomanimalhospital.com/" id="vet-website" data-parent="vet" target="_blank">kingdomanimalhospital.com</a></p>
 		</div>
-	<button class="collapsible" id="more" data-parent="more" data-child="more-child">More Info</button>
+	<!--<button class="collapsible" id="more" data-parent="more" data-child="more-child">More Info</button>
 		<div id="more-child" class="innertext center" data-parent="more">
 			<p>Loading . . .</p>
-		</div>
+		</div><!---->
 </div>
 <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase-database.js"></script>
