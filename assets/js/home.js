@@ -12,8 +12,11 @@ try{
 			if(messageVal=="home"){
 				document.getElementById('more-info').innerHTML = "My owner is home! You can contact him at <a href='tel:+15406926899' id='phone'>1-540-692-6899</a> or through his <a href='/contact' id='contact' target='_blank'>contact page</a>.";
 			}
-			else if(messageVal=="away"){
+			else if(messageVal=="awayd"){
 				document.getElementById('more-info').innerHTML = "My owner is away from the house. You can try contacting Lanny at <a href='tel:+15403279023'>1-540-327-9023</a>. You can contact my owner at <a href='tel:+15406926899' id='phone'>1-540-692-6899</a> or through his <a href='/contact' id='contact' target='_blank'>contact page</a>.";
+			}
+			else if(messageVal=="awaym"){
+				document.getElementById('more-info').innerHTML = "My owner is away from the house. You can try contacting Shelva at <a href='tel:+13048204338'>1-304-820-4338</a>. You can contact my owner at <a href='tel:+15406926899' id='phone'>1-540-692-6899</a> or through his <a href='/contact' id='contact' target='_blank'>contact page</a>.";
 			}
 			else{
 				document.getElementById('more-info').innerHTML = messageVal;
