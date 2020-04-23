@@ -5,7 +5,7 @@ try{
 	firebase.initializeApp(config);
 	var database = firebase.database();
 	//Extra info
-	var message = database.ref('dog/status');
+	var message = database.ref('dog/stat');
 	message.on('value', (function(snapshot) {
 		var messageVal = snapshot.val();
 		if(messageVal){
